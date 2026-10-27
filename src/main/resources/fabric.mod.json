@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nimbus",
+  "version": "${version}",
+  "name": "Nimbus",
+  "description": "Modular client-side utility toolkit with a ClickGUI.",
+  "authors": ["Nimbus contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.nimbus.NimbusClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
